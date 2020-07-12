@@ -11,7 +11,7 @@ let numberDegree = () => {
 };
 let resultNumberDegree = numberDegree() ;
 
-let quantity = Math.floor (Math.random() * 5) ;
+let quantity = Math.floor (Math.random() * (10 - 1) + 1) ;
 
 let result = (resultNumberDegree, quantity) => {
     let factory = resultNumberDegree ;
